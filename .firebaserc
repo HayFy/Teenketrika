@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "teenketrika-dev": {
+      "hosting": {
+        "teenketrika": [
+          "teenketrika-dev"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "teenketrika-dev"
+  }
+}
