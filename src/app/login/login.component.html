@@ -1,0 +1,12 @@
+<div class="text-center">
+  <div class="form-signin">
+    <img class="mb-4" src="../assets/Solid.png" alt="" width="100%" >
+    <h1 class="h3 mb-3 font-weight-normal"></h1>
+    <label for="inputEmail" class="sr-only">Email</label>
+    <input type="email"  class="form-control" placeholder="Email address"  #userName required autofocus>
+    <label for="inputPassword" class="sr-only">Mots de passe</label>
+    <input type="password" class="form-control" placeholder="Password"  #userPassword required>
+    <button class="btn btn-lg btn-primary btn-block mt-5" type="button" (click)="authService.login(userName.value, userPassword.value)" >Connexion</button>
+    <p class="mt-5 mb-3 text-muted">&copy; 2015-2022</p>
+  </div>
+</div>
